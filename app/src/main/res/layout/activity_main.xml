@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/g">
+
+    <TextView
+        android:id="@+id/text_Azzkar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="أذكار الصباح والمساء"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="50dp"
+        android:paddingRight="15dp"
+
+
+        />
+
+  <LinearLayout
+      android:layout_width="300dp"
+      android:layout_height="200dp"
+      android:layout_below="@+id/text_Azzkar"
+      android:layout_marginTop="105dp"
+      android:orientation="vertical"
+      android:layout_gravity="center"
+      >
+<Button
+    android:id="@+id/btn_alsbah"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="أذكار الصباح"
+    android:background="@drawable/alsbaah"
+    android:layout_weight="1"
+    android:layout_marginBottom="10dp"
+
+   />
+    <Button
+        android:id="@+id/btn_almasaa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="أذكارالمساء"
+        android:layout_weight="1"
+        android:textColor="#ffff"
+        android:background="@drawable/almasaa"
+
+        android:layout_marginTop="5dp"
+        />
+  </LinearLayout>
+</LinearLayout>
